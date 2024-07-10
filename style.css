@@ -1,0 +1,142 @@
+ nav {
+     display: flex;
+     justify-content: space-around;
+     background-color: navy;
+ }
+
+ .nav-menu li a {
+     color: white;
+     text-decoration: none;
+ }
+
+ ul {
+     display: flex;
+     gap: 25px;
+     align-item: center;
+     list-style-type: none;
+     color: white;
+ }
+
+ #image1 {
+     width: 30%;
+     min-height: 300px;
+     padding: 20px;
+
+ }
+
+ .logo {
+     max-height: 100px;
+ }
+
+ section {
+     border: 1px solid;
+ }
+
+ #section2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: white;
+ }
+
+ #image-section div p {
+     color: black;
+ }
+
+ #image-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+ }
+
+ #image-container div p {
+     color: black;
+ }
+
+ #image-container div img {
+     border: 3px solid rgb(83, 202, 241);
+     border-radius: 15px;
+ }
+
+ #section1 {
+     display-flex;
+     background-color: navy;
+     align-items: center;
+     justify-content: center;
+     border: white;
+ }
+
+ button {
+     background-color: rgb(77, 72, 222);
+     color: wheat;
+     border-radius: 7px;
+ }
+
+ ul {
+     color: wheat;
+ }
+
+ #image-container div {
+     display: flex;
+     align-items: center;
+     border: navy;
+     flex-direction: column;
+ }
+
+ .section3 p {
+     color: black;
+ }
+
+ .section3 div {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ #p2 {
+     margin-top: 100px;
+ }
+
+ #navy {
+     display: flex;
+     background-color: navy;
+     align-items: center;
+     margin-top: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     justify-content: center;
+     color: white;
+ }
+
+ .header-content h1,
+ p {
+     color: white;
+ }
+
+ .header-content h1 {
+     font-family: cursive;
+     font-weight: bold;
+     font-size: 2em;
+ }
+
+ .p1 {
+     font-family: sans-serif;
+     font-size: 2.5em;
+ }
+
+ footer {
+     width: 80%;
+     display: block;
+     margin: auto;
+     border: 3px solid rgb(226, 221, 189);
+     background-color: rgb(56, 126, 225);
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ footer button {
+     max-height: 40px;
+ }
+ 
