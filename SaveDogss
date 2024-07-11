@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./images/dog6.jpeg" alt="Dog Image">
+            <ul class="nav-menu">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <div class="header-content">
+                <h1>This is a Shiba Inu Fanpage</h1>
+                <p>Shibas are considered as heckin good bois all over the world. This page is
+                    dedicated to these good bois. Enjoy.</p>
+                <button>Sign Up</button>
+            </div>
+            <img id="image1" src="./images/dog.jpeg" alt="Dog Image">
+        </section>
+
+        <section id="section2">
+            <h2>Types of Good Bois</h2>
+            <div id="image-container">
+                <div>
+                    <img width="200px" src="./images/dog2.jpeg" alt="Black Dog">
+                    <p>Best Shibs</p>
+                </div>
+                <div>
+                    <img width="200px" src="./images/dog3.jpeg" alt="Black Dog">
+                    <p>Shibs party</p>
+                </div>
+                <div>
+                    <img width="200px" src="./images/dog4.jpeg" alt="Black Dog">
+                    <p>Good boi</p>
+                </div>
+                <div>
+                    <img width="150px" src="./images/dog5 copy.jpeg" alt="Black Dog">
+                    <p>Hat boi</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section3">
+            <p class="p1">"If I chew something up, all of the pices are mine.If I can take it from you, it's mine." </p>
+            <h3>-- Anonymous Shibu Inu</h3>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3 class="footer1">Keep it updated with Shiba News!</h3>
+            <p>Sign up for all the latest information right now</p>
+        </div>
+        <button>Sign Up</button>
+    </footer>
+    <p id="footer-color">Copyright @ The Oidn Project 2021 </p>
+</body>
+
+</html>
