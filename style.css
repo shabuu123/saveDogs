@@ -12,16 +12,15 @@
  ul {
      display: flex;
      gap: 25px;
-     align-item: center;
+     align-items: center;
      list-style-type: none;
      color: white;
  }
 
  #image1 {
      width: 30%;
-     min-height: 300px;
+     min-height: 100px;
      padding: 20px;
-
  }
 
  .logo {
@@ -60,7 +59,7 @@
  }
 
  #section1 {
-     display-flex;
+    display: flex;
      background-color: navy;
      align-items: center;
      justify-content: center;
@@ -117,6 +116,7 @@
      font-family: cursive;
      font-weight: bold;
      font-size: 2em;
+    
  }
 
  .p1 {
